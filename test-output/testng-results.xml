@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-25T14:04:10 EET" name="Default suite" finished-at="2023-01-25T14:04:18 EET" duration-ms="8021">
+    <groups>
+    </groups>
+    <test started-at="2023-01-25T14:04:10 EET" name="Default test" finished-at="2023-01-25T14:04:18 EET" duration-ms="8021">
+      <class name="tests.Hovertest">
+        <test-method is-config="true" signature="openurl(java.lang.String)[pri:0, instance:tests.Hovertest@795509d9]" started-at="2023-01-25T14:04:10 EET" name="openurl" finished-at="2023-01-25T14:04:15 EET" duration-ms="5455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="userhovertest()[pri:0, instance:tests.Hovertest@795509d9]" started-at="2023-01-25T14:04:15 EET" name="userhovertest" finished-at="2023-01-25T14:04:18 EET" duration-ms="2442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userhovertest -->
+        <test-method is-config="true" signature="usertakescreen(org.testng.ITestResult)[pri:0, instance:tests.Hovertest@795509d9]" started-at="2023-01-25T14:04:18 EET" name="usertakescreen" finished-at="2023-01-25T14:04:18 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userhovertest status=SUCCESS method=Hovertest.userhovertest()[pri:0, instance:tests.Hovertest@795509d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usertakescreen -->
+        <test-method is-config="true" signature="usercloseurl()[pri:0, instance:tests.Hovertest@795509d9]" started-at="2023-01-25T14:04:18 EET" name="usercloseurl" finished-at="2023-01-25T14:04:18 EET" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usercloseurl -->
+      </class> <!-- tests.Hovertest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
