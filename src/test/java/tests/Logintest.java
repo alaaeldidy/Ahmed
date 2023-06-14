@@ -17,7 +17,7 @@ public class Logintest extends Testbase {
 		Homeobj = new Homepage(driver);
 		Homeobj.userpresslogin();
 		Loginobj = new Loginpage(driver);
-		Loginobj.userlogin("yoddfdicuy@gmail.com","ahmedahmed");
+		Loginobj.userlogin("ppyoddfdjjhicuy@gmail.com","ahmedahmed");
 		Assert.assertEquals("Log out",Loginobj.successlogin.getText() );
 	}
 	

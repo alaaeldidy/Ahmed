@@ -17,7 +17,7 @@ public void userregistertest()
 	Homeobj = new Homepage(driver);
 	Homeobj.userpressregister();
 	Registerobj=new Registerpage(driver);
-	Registerobj.userputregisterdata("Alaa","mohamed","yoddfdicuy@gmail.com","ahmedahmed");
+	Registerobj.userputregisterdata("Alaa","mohamed","ppyoddfdjjhicuy@gmail.com","ahmedahmed");
 	Assert.assertEquals("Your registration completed", Registerobj.successregister.getText());
 }
 	
